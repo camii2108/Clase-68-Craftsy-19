@@ -1,0 +1,8 @@
+- git reset --hard => para resetear el codigo
+- git pull origin develop 
+- https://www.npmjs.com/package/express-validator
+- https://express-validator.github.io/docs
+
+npm i express-validator => 
+
+.post('/add', uploadImageProduct.single('image'), store) /* lo que esta en formulario lo atrapa con MULTER  */
